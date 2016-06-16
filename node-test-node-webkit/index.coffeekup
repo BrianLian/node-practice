@@ -1,0 +1,11 @@
+doctype 5
+html ->
+  head ->
+    title "node-sqlite3-test"
+    script src:'main.js'
+
+  body ->
+    h1 "node webkit Test"
+    a href:'http://www.google.com' ,'Google'
+    p id: 'showData', 'Receive Data:'
+    input type:'button', onclick:'doSomething();', value:'doSomething'

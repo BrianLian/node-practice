@@ -1,0 +1,16 @@
+{
+  "name": "mqtt_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mqtt": "^1.4.3",
+    "mqtt-rpc": "git+ssh://git@github.com:BrianLian/mqtt-rpc.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brianlian",
+  "license": "ISC"
+}
